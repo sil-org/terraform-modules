@@ -18,7 +18,7 @@ This module is used to pull the current list of IP ranges for Cloudflare for IPv
 
 ```hcl
 module "cf_ips" {
-  source = "github.com/silinternational/terraform-modules//cloudflare/ips"
+  source = "github.com/sil-org/terraform-modules//cloudflare/ips"
 }
 
 resource "aws_security_group" "cloudflare_https" {

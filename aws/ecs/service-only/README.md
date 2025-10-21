@@ -1,6 +1,6 @@
 # Deprecation Notice
 
-This module is deprecated. Please use [terraform-aws-ecs-service](https://github.com/silinternational/terraform-aws-ecs-service) instead. See [Terraform Registry](https://registry.terraform.io/modules/silinternational/ecs-service/aws/latest) for more details.
+This module is deprecated. Please use [terraform-aws-ecs-service](https://github.com/sil-org/terraform-aws-ecs-service) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/ecs-service/aws/latest) for more details.
 
 # aws/ecs/service-only - EC2 Container Service Service/Task
 This module is used to create an ECS service as well as task definition
@@ -46,7 +46,7 @@ This module is used to create an ECS service as well as task definition
 
 ```hcl
 module "ecsservice" {
-  source             = "github.com/silinternational/terraform-modules//aws/ecs/service-only"
+  source             = "github.com/sil-org/terraform-modules//aws/ecs/service-only"
   cluster_id         = "${module.ecscluster.ecs_cluster_id}"
   service_name       = "${var.app_name}"
   service_env        = "${var.app_env}"

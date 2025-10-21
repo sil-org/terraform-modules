@@ -37,7 +37,7 @@ This module is used to create an ECS service as well as task definition
 
 ```hcl
 module "ecsservice" {
-  source             = "github.com/silinternational/terraform-modules//aws/ecs/service-no-alb"
+  source             = "github.com/sil-org/terraform-modules//aws/ecs/service-no-alb"
   cluster_id         = "${module.ecscluster.ecs_cluster_id}"
   service_name       = "${var.app_name}"
   service_env        = "${var.app_env}"

@@ -1,6 +1,6 @@
 # Deprecation Notice
 
-This module is deprecated. Please use [terraform-aws-vpc](https://github.com/silinternational/terraform-aws-vpc) instead. See [Terraform Registry](https://registry.terraform.io/modules/silinternational/vpc/aws/latest) for more details.
+This module is deprecated. Please use [terraform-aws-vpc](https://github.com/sil-org/terraform-aws-vpc) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/vpc/aws/latest) for more details.
 
 # aws/vpc - Virtual Private Cloud
 This module is used to create a VPC along with the necessary configuration to
@@ -49,7 +49,7 @@ be useful.
 
 ```hcl
 module "vpc" {
-  source = "github.com/silinternational/terraform-modules//aws/vpc"
+  source = "github.com/sil-org/terraform-modules//aws/vpc"
   app_name = var.app_name
   app_env = var.app_env
   aws_zones = var.aws_zones

@@ -30,7 +30,7 @@ IAM roles to function.
 
 ```hcl
 module "ecscluster" {
-  source = "github.com/silinternational/terraform-modules//aws/ecs/cluster"
+  source = "github.com/sil-org/terraform-modules//aws/ecs/cluster"
   app_name = "${var.app_name}"
   app_env = "${var.app_env}"
 }

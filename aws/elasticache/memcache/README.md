@@ -34,7 +34,7 @@ This module is used to create an Elasticache cluster of memcache servers
 
 ```hcl
 module "memcache" {
-  source = "github.com/silinternational/terraform-modules//aws/elasticache/memcache"
+  source = "github.com/sil-org/terraform-modules//aws/elasticache/memcache"
   cluster_id = "doorman-cache"
   security_group_ids = ["${module.vpc.vpc_default_sg_id}"]
   subnet_group_name = "doorman-cache-subnet"

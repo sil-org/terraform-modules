@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This module is deprecated. In keeping with the best practice recommended [here](https://developer.hashicorp.com/terraform/language/modules/develop/composition), simply include the code in this module directly in your module.
+
 # aws/rds/mariadb - Relational Database Service - MariaDB
 This module is used to create an RDS instance.
 
@@ -51,7 +55,7 @@ This module is used to create an RDS instance.
 
 ```hcl
 module "rds" {
-  source = "github.com/silinternational/terraform-modules//aws/rds/mariadb"
+  source = "github.com/sil-org/terraform-modules//aws/rds/mariadb"
   app_name = "${var.app_name}"
   app_env = "${var.app_env}"
   db_name = "${var.db_name}"

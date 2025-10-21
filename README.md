@@ -4,11 +4,11 @@ This repository is being phased out. Some of the modules have been moved to
 their own repository, and others will be moved as changes become necessary.
 The following is a list of the new module sources:
 
-- [silinternational/alb/aws](https://github.com/silinternational/terraform-aws-alb) replaces aws/alb
-- [silinternational/backup/aws](https://github.com/silinternational/terraform-aws-backup) replaces aws/backup/rds
-- [silinternational/cloudtrail/aws](https://github.com/silinternational/terraform-aws-cloudtrail) replaces aws/cloudtrail
-- [silinternational/ecs-service/aws](https://github.com/silinternational/terraform-aws-ecs-service) replaces aws/ecs/service-only
-- [silinternational/vpc/aws](https://github.com/silinternational/terraform-aws-vpc) replaces aws/vpc
+- [sil-org/alb/aws](https://github.com/sil-org/terraform-aws-alb) replaces aws/alb
+- [sil-org/backup/aws](https://github.com/sil-org/terraform-aws-backup) replaces aws/backup/rds
+- [sil-org/cloudtrail/aws](https://github.com/sil-org/terraform-aws-cloudtrail) replaces aws/cloudtrail
+- [sil-org/ecs-service/aws](https://github.com/sil-org/terraform-aws-ecs-service) replaces aws/ecs/service-only
+- [sil-org/vpc/aws](https://github.com/sil-org/terraform-aws-vpc) replaces aws/vpc
 
 # Terraform Modules
 This repository contains Terraform modules that implement conventions we use

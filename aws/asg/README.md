@@ -38,7 +38,7 @@ an auto scaling group that uses the template.
 
 ```hcl
 module "asg" {
-  source = "github.com/silinternational/terraform-modules//aws/asg"
+  source = "github.com/sil-org/terraform-modules//aws/asg"
   app_name = "${var.app_name}"
   app_env = "${var.app_env}"
   aws_instance = "${var.aws_instance}"

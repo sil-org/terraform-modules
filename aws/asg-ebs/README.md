@@ -48,7 +48,7 @@ an auto scaling group that uses the template.  An EBS file system is mounted.
 
 ```hcl
 module "asg" {
-  source = "github.com/silinternational/terraform-modules//aws/asg-ebs"
+  source = "github.com/sil-org/terraform-modules//aws/asg-ebs"
   app_name = var.app_name
   app_env = var.app_env
   ami_id = module.ecs.ami_id

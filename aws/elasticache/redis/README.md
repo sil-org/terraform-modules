@@ -33,7 +33,7 @@ This module is used to create an Elasticache cluster of Redis servers
 
 ```hcl
 module "redis" {
-  source = "github.com/silinternational/terraform-modules//aws/elasticache/redis"
+  source = "github.com/sil-org/terraform-modules//aws/elasticache/redis"
   cluster_id = "doorman-cache"
   security_group_ids = [module.vpc.vpc_default_sg_id]
   subnet_group_name = "doorman-cache-subnet"

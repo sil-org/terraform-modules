@@ -1,6 +1,6 @@
 # Deprecation Notice
 
-This module is deprecated. Please use [terraform-aws-alb](https://github.com/silinternational/terraform-aws-alb) instead. See [Terraform Registry](https://registry.terraform.io/modules/silinternational/alb/aws/latest) for more details.
+This module is deprecated. Please use [terraform-aws-alb](https://github.com/sil-org/terraform-aws-alb) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/alb/aws/latest) for more details.
 
 # aws/alb - Application Load Balancer
 This module is used to create an application load balancer along with security
@@ -48,7 +48,7 @@ groups for traffic and a default target group.
 
 ```hcl
 module "asg" {
-  source = "github.com/silinternational/terraform-modules//aws/asg"
+  source = "github.com/sil-org/terraform-modules//aws/asg"
   app_name = "${var.app_name}"
   app_env = "${var.app_env}"
   vpc_id = "${module.vpc.id}"

@@ -1,6 +1,6 @@
 # Deprecation Notice
 
-This module is deprecated. Please use [terraform-aws-backup](https://github.com/silinternational/terraform-aws-backup) instead. See [Terraform Registry](https://registry.terraform.io/modules/silinternational/backup/aws/latest) for more details. 
+This module is deprecated. Please use [terraform-aws-backup](https://github.com/sil-org/terraform-aws-backup) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/backup/aws/latest) for more details. 
 
 # aws/backup/rds - AWSBackup of databases
 This module is used to create scheduled backups of AWS databases.
@@ -44,7 +44,7 @@ variable "enable_db_backup" {
 ```hcl
 module "backup_rds" {
   count = var.enable_db_backup ? 1 : 0
-  source = "github.com/silinternational/terraform-modules//aws/backup/rds"
+  source = "github.com/sil-org/terraform-modules//aws/backup/rds"
   app_name = var.app_name
   app_env = var.app_env
   aws_access_key = var.aws_access_key

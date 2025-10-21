@@ -29,7 +29,7 @@ image.
 
 ```hcl
 module "ecr" {
-  source = "github.com/silinternational/terraform-modules//aws/ecr"
+  source = "github.com/sil-org/terraform-modules//aws/ecr"
   repo_name = "${var.app_name}-${var.app_env}"
   ecsInstanceRole_arn = "${data.terraform_remote_state.cluster.ecsInstanceRole_arn}"
   ecsServiceRole_arn = "${data.terraform_remote_state.cluster.ecsServiceRole_arn}"

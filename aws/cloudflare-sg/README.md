@@ -19,7 +19,7 @@ Cloudflare IP addresses only.
 
 ```hcl
 module "cloudflare-sg" {
-  source = "github.com/silinternational/terraform-modules//aws/cloudflare-sg"
+  source = "github.com/sil-org/terraform-modules//aws/cloudflare-sg"
   vpc_id = "${var.vpc_id}"
 }
 ```

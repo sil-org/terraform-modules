@@ -1,6 +1,6 @@
 # Deprecation Notice
 
-This module is deprecated. Please use [terraform-aws-cloudtrail](https://github.com/silinternational/terraform-aws-cloudtrail) instead. See [Terraform Registry](https://registry.terraform.io/modules/silinternational/cloudtrail/aws/latest) for more details.
+This module is deprecated. Please use [terraform-aws-cloudtrail](https://github.com/sil-org/terraform-aws-cloudtrail) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/cloudtrail/aws/latest) for more details.
 
 # aws/cloudtrail - CloudTrail
 This module is used to set up CloudTrail logging for your AWS account.
@@ -31,7 +31,7 @@ This module is used to set up CloudTrail logging for your AWS account.
 
 ```hcl
 module "cloudtrail" {
-  source          = "github.com/silinternational/terraform-modules//aws/cloudtrail"
+  source          = "github.com/sil-org/terraform-modules//aws/cloudtrail"
   cloudtrail_name = "${var.cloudtrail_name}"
   s3_bucket_name  = "YOUR-AWS-ACCOUNT-cloudtrail-logs"
 }
