@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This module is deprecated. Please use [terraform-aws-ecs-cluster](https://github.com/sil-org/terraform-aws-ecs-cluster) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/ecs-cluster/aws/latest) for more details.
+
 # aws/ecs/cluster - EC2 Container Service Cluster
 This module is used to create an ECS cluster along with the necessary
 IAM roles to function.
