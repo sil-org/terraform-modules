@@ -9,6 +9,7 @@ The following is a list of the new module sources:
 - [sil-org/asg/aws](https://github.com/sil-org/terraform-aws-asg) replaces aws/asg and aws/asg-ebs
 - [sil-org/backup/aws](https://github.com/sil-org/terraform-aws-backup) replaces aws/backup/rds
 - [sil-org/cloudtrail/aws](https://github.com/sil-org/terraform-aws-cloudtrail) replaces aws/cloudtrail
+- [sil-org/ecr/aws](https://github.com/sil-org/terraform-aws-ecr) replaces aws/ecr
 - [sil-org/ecs-cluster/aws](https://github.com/sil-org/terraform-aws-ecs-cluster) replaces aws/ecs/cluster
 - [sil-org/ecs-service/aws](https://github.com/sil-org/terraform-aws-ecs-service) replaces aws/ecs/service-no-alb, aws/ecs/service-no-alb-with-volume, aws/ecs/service-only, and aws/ecs/service-only-with-volume
 - [sil-org/vpc/aws](https://github.com/sil-org/terraform-aws-vpc) replaces aws/vpc
