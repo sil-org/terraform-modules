@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This module is deprecated. Please use [terraform-aws-asg](https://github.com/sil-org/terraform-aws-asg) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/asg/aws/latest) for more details.
+
 # aws/asg - Auto Scaling Group
 This module is used to create an auto scaling group launch template and
 an auto scaling group that uses the template.

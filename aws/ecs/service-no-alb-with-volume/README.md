@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This module is deprecated. Please use [terraform-aws-ecs-service](https://github.com/sil-org/terraform-aws-ecs-service) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/ecs-service/aws/latest) for more details.
+
 # aws/ecs/service-no-alb-with-volume - EC2 Container Service Service/Task without load balancer with volume
 This module is used to create an ECS service as well as task definition
 

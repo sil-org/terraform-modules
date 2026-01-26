@@ -1,3 +1,27 @@
+# Deprecation Notice
+
+This module is deprecated due to changes to the http provider. If the Cloudflare API used by the cloudflare-sg does not return a correct response, the data will be invalid but the Terraform plan will not necessarily fail. This is because the http provider no longer checks the return status but leaves it up to the consumer to check the new status_code attribute.
+
+Instead of using this module, use this data source in your code:
+
+```terraform
+data "external" "cloudflare_ips" {
+  program = ["${path.module}/cloudflare-ips.sh"]
+}
+```
+
+cloudflare-ips.sh
+```sh
+#!/usr/bin/env bash
+
+set -e
+
+curl --silent --fail 'https://api.cloudflare.com/client/v4/ips' | jq '{
+  ipv4_cidrs: (.result.ipv4_cidrs | join(",")),
+  ipv6_cidrs: (.result.ipv6_cidrs | join(","))
+}'
+```
+
 # cloudflare/ips - Cloudflare IP Addresses
 This module is used to pull the current list of IP ranges for Cloudflare for IPv4 and IPv6
 

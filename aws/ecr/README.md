@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This module is deprecated. Please use [terraform-aws-ecr](https://github.com/sil-org/terraform-aws-ecr) instead. See [Terraform Registry](https://registry.terraform.io/modules/sil-org/ecr/aws/latest) for more details.
+
 # aws/ecr - EC2 Container Service Image Repository
 This module is used to create an ECS image repository for storage of a Docker
 image.
